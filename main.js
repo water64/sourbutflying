@@ -182,8 +182,6 @@ window.onload = function() { // executes after everything executed & resources f
     setTimeout(function(){document.getElementById("shutdown").style = "display: none;"},500)
   }, 1000)
 }
-}
 const mdcFoo = require('mdc-foo');
 const MDCFoo = mdcFoo.MDCFoo;
 const MDCFooFoundation = mdcFoo.MDCFooFoundation;
-}
