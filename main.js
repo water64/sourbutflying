@@ -1,3 +1,4 @@
+const mdc = require('material-components-web')
 mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));
 
 var menubarSystem = document.getElementById("systemButton");
