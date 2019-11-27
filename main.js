@@ -183,6 +183,7 @@ window.onload = function() { // executes after everything executed & resources f
   }, 1000)
 }
 }
-const MDCFoo = mdc.foo.MDCFoo;
-const MDCFooFoundation = mdc.foo.MDCFooFoundation;
+const mdcFoo = require('mdc-foo');
+const MDCFoo = mdcFoo.MDCFoo;
+const MDCFooFoundation = mdcFoo.MDCFooFoundation;
 }
